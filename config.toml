@@ -1,0 +1,7 @@
+baseURL = "https://github.com/Qskotlv/Pika.github.io/"
+languageCode = "zh-cn"
+title = "Supreme Graphics"
+Paginate = 1000
+googleAnalytics = ""
+theme = "piko"
+
