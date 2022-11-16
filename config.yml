@@ -3,7 +3,7 @@ baseURL: https://github.com/Qskotlv/Pika.github.io/
 languageCode: zh-cn
 title: Piko
 theme: piko
-themesDir: /themes
+themesDir: themes
 paginate: "16"
 copyright: A template by [Heksagon](https://www.heksagon.net "Your most friendly developer")
 googleAnalytics: # Enter Google Analytics ie. UA-012345678-9
