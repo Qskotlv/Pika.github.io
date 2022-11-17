@@ -45,7 +45,7 @@ params:
   images:
   - "og.webp"
   label:
-    title: _Piko Title_
+    title: _3A Game Graphics_
     text: Welcome to Piko
     icon: zap.svg
     iconHeight: "35"
@@ -75,8 +75,8 @@ params:
     # Hero Section
     disableHeroSection: false
     heroUpperTitle: 
-    heroTitle: Piko
-    heroDescription: Lightweight theme for your every need
+    heroTitle: 3A Game Graphics
+    heroDescription: 欢迎来到........
     heroCTAPrimaryText: 报名参加课程
     heroCTAPrimaryUrl: "/blog/"
     heroCTASecondaryText: 联系我们

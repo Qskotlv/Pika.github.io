@@ -1,9 +1,9 @@
 ---
-author: "Hugo Authors"
-title: "Rich Content"
+author: "admin"
+title: "Text2"
 date: "2019-03-10"
-description: "A brief description of Hugo Shortcodes"
-tags: ["shortcodes", "privacy", "css", "html", "themes"]
+description: "A brief Text2"
+tags: ["pc", "switch", "ps4", "html"]
 categories: ["themes", "syntax"]
 ShowToc: true
 TocOpen: true
