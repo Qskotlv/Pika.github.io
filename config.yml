@@ -77,16 +77,19 @@ params:
     heroUpperTitle: 
     heroTitle: Piko
     heroDescription: Lightweight theme for your every need
-    heroCTAPrimaryText: Blog
+    heroCTAPrimaryText: 报名参加课程
     heroCTAPrimaryUrl: "/blog/"
-    heroCTASecondaryText: Contact Me
+    heroCTASecondaryText: 联系我们
     heroCTASecondaryUrl: "/contact/"
     heroBackgroundImage: "portfolio-1.webp"
+
     # Blog Section
     disableBlogSection: false
     blogTitle: Latest Posts
     blogDescription: This is my latest blog posts
     seeMoreText: More Posts
+
+
     # About Section    
     disableAboutSection: false
     aboutTitle: About

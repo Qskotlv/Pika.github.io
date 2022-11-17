@@ -48,16 +48,22 @@
         $related }}
         <h3>See Also</h3>
 
-        {{ range . }}
+         <a
+        class="hero-buttons"
+        role="button"
+        >{{ "点击购买" }}</a
+        >
 
-        <a href="{{ .RelPermalink }}">
+        <a href="https://github.com/gohugoio/hugo/releases/tag/v0.91.0" >
           <hgroup>
-            <h4><i>{{ .Title }}</i></h4>
-            <p>{{- partial "post_meta.html" . -}}</p>
+            <h4><i>{{ "支付宝" }}</i></h4>
           </hgroup>
         </a>
 
-        {{ end }} {{ end }} 
+
+       {{ end }} 
+
+
       </article>
     </aside>
     {{ end }}
