@@ -6,6 +6,7 @@ theme: piko
 themeDir: themes/
 paginate: "16"
 copyright: A template by [Heksagon](https://www.heksagon.net "Your most friendly developer")
+canonifyURLs: true
 googleAnalytics: # Enter Google Analytics ie. UA-012345678-9
 enableRobotsTXT: true
 buildDrafts: false
