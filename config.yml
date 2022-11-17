@@ -42,11 +42,11 @@ params:
   description: Your website description
   math: false
   images:
-  - "/og.webp"
+  - "og.webp"
   label:
     title: _Piko Title_
     text: Welcome to Piko
-    icon: /zap.svg
+    icon: zap.svg
     iconHeight: "35"
     iconWIdth: "35"
   comments: true
@@ -63,11 +63,11 @@ params:
   contactFormAction: # Get link from https://formsubmit.io or https://fabform.io
   assets:
     disableFingerprinting: false
-    favicon: /zap.svg
-    favicon16x16: /zap.svg
-    favicon32x32: /zap.svg
-    apple_touch_icon: /zap.svg
-    safari_pinned_tab: /zap.svg
+    favicon: zap.svg
+    favicon16x16: zap.svg
+    favicon32x32: zap.svg
+    apple_touch_icon: zap.svg
+    safari_pinned_tab: zap.svg
   ShowReadingTime: true
   ShowBreadCrumbs: true
   homepage:
@@ -80,7 +80,7 @@ params:
     heroCTAPrimaryUrl: "/blog/"
     heroCTASecondaryText: Contact Me
     heroCTASecondaryUrl: "/contact/"
-    heroBackgroundImage: "/portfolio-1.webp"
+    heroBackgroundImage: "portfolio-1.webp"
     # Blog Section
     disableBlogSection: false
     blogTitle: Latest Posts
@@ -90,7 +90,7 @@ params:
     disableAboutSection: false
     aboutTitle: About
     aboutDescription: Just something about me
-    aboutImgUrl: "/jacksquirrel.jpg"
+    aboutImgUrl: "jacksquirrel.jpg"
     aboutContent: Hi guys. This is where you put something about yourself.
 
 
@@ -99,59 +99,59 @@ params:
     portfolioTitle: Showcase
     portfolioDescription: 作品展示
     portfolio:
-    - imageUrl: /introduction.png
+    - imageUrl: introduction.png
       alt: # image alt for better SEO
       description: Portfolio 1231244.
       websiteUrl: #
-    - imageUrl: /shader.png
+    - imageUrl: shader.png
       alt: # image alt for better SEO
       description: Portfolio Two.
       websiteUrl: #
-    - imageUrl: /dots.png
+    - imageUrl: dots.png
       alt: # image alt for better SEO
       description: Portfolio Three.
       websiteUrl: #
-    - imageUrl: /building.png
+    - imageUrl: building.png
       alt: # image alt for better SEO
       description: Portfolio Three.
       websiteUrl: #
-    - imageUrl: /grass.jpg
+    - imageUrl: grass.jpg
       alt: # image alt for better SEO
       description: Portfolio Three.
       websiteUrl: #
-    - imageUrl: /forest.png
+    - imageUrl: forest.png
       alt: # image alt for better SEO
       description: Portfolio Three.
       websiteUrl: #          
-    - imageUrl: /terrain1.png
+    - imageUrl: terrain1.png
       alt: # image alt for better SEO
       description: Portfolio Three.
       websiteUrl: #             
-    - imageUrl: /lighting.png
+    - imageUrl: lighting.png
       alt: # image alt for better SEO
       description: Portfolio Three.
       websiteUrl: #  
-    - imageUrl: /gi.png
+    - imageUrl: gi.png
       alt: # image alt for better SEO
       description: Portfolio Three.
       websiteUrl: #       
-    - imageUrl: /shadow.jpg
+    - imageUrl: shadow.jpg
       alt: # image alt for better SEO
       description: Portfolio Three.
       websiteUrl: #  
-    - imageUrl: /portfolio-2.webp
+    - imageUrl: portfolio-2.webp
       alt: # image alt for better SEO
       description: Portfolio Three.
       websiteUrl: # 
-    - imageUrl: /rtx.png
+    - imageUrl: rtx.png
       alt: # image alt for better SEO
       description: Portfolio Three.
       websiteUrl: # 
-    - imageUrl: /hdr4k.jpg
+    - imageUrl: hdr4k.jpg
       alt: # image alt for better SEO
       description: Portfolio Three.
       websiteUrl: # 
-    - imageUrl: /nanite.png
+    - imageUrl: nanite.png
       alt: # image alt for better SEO
       description: Portfolio Three.
       websiteUrl: # 
