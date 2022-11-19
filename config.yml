@@ -94,7 +94,7 @@ params:
     disableAboutSection: false
     aboutTitle: About
     aboutDescription: Just something about me
-    aboutImgUrl: "jacksquirrel.jpg"
+    aboutImgUrl: "aboutme.jpg"
     aboutContent: Hi guys. This is where you put something about yourself.
 
 
