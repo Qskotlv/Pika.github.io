@@ -1,28 +1,46 @@
 {{ define "main" }}
 {{- if not (.Site.Params.homepage.disableHeroSection) }}
-<section class="hero" style="background-image:linear-gradient(rgba(20,30,38, 0.9), rgba(24,44,54, 0.8)),
-url('{{.Site.Params.homepage.heroBackgroundImage}}'); ">
-  <header class="container">
-    <hgroup>
-      <h1>{{.Site.Params.homepage.heroUpperTitle}}</h1>
-      <h1>{{.Site.Params.homepage.heroTitle}}</h1>
-      <h2>{{.Site.Params.homepage.heroDescription}}</h2>
-    </hgroup>
-    <div>
-      <a
-        class="hero-buttons"
-        href="{{ .Site.Params.homepage.heroCTAPrimaryUrl | relURL  }}"
-        role="button"
-        >{{.Site.Params.homepage.heroCTAPrimaryText}}</a
-      >
-      <a
-        href="{{ .Site.Params.homepage.heroCTASecondaryUrl | relURL  }}"
-        role="button"
-        class="contrast outline"
-        >{{.Site.Params.homepage.heroCTASecondaryText}}</a
-      >
-    </div>
-  </header>
+<section class="hero" style="background-image: linear-gradient(rgba(20,30,38, 0.9), rgba(24,44,54, 0.8)),
+    url('{{.Site.Params.homepage.heroBackgroundImage}}'); background-position: center; background-size: cover; ">
+    <header class="container">
+        <hgroup>
+            <h1>{{.Site.Params.homepage.heroUpperTitle}}</h1>
+            <h1>{{.Site.Params.homepage.heroTitle}}</h1>
+            <h2>{{.Site.Params.homepage.heroDescription}}</h2>
+        </hgroup>
+        <div>
+            <a class="hero-buttons"
+               href="{{ .Site.Params.homepage.heroCTAPrimaryUrl | relURL  }}"
+               role="button">{{.Site.Params.homepage.heroCTAPrimaryText}}</a>
+            <a href="{{ .Site.Params.homepage.heroCTASecondaryUrl | relURL  }}"
+               role="button"
+               class="contrast outline">{{.Site.Params.homepage.heroCTASecondaryText}}</a>
+        </div>
+    </header>
+    <header class="container">
+        <hgroup>
+            <h1>{{""}}</h1>
+            <h1>{{""}}</h1>
+            <h2>{{""}}</h2>
+        </hgroup>
+        <hgroup>
+            <h1>{{""}}</h1>
+            <h1>{{""}}</h1>
+            <h2>{{""}}</h2>
+        </hgroup>
+    </header>
+    <header class="container">
+        <hgroup>
+            <h1>{{""}}</h1>
+            <h1>{{""}}</h1>
+            <h2>{{""}}</h2>
+        </hgroup>
+        <hgroup>
+            <h1>{{""}}</h1>
+            <h1>{{""}}</h1>
+            <h2>{{""}}</h2>
+        </hgroup>
+    </header>
 </section>
 {{ end }}
 

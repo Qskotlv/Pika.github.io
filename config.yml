@@ -1,11 +1,11 @@
 ---
 baseURL: https://github.com/Qskotlv/Pika.github.io/
 languageCode: en-us
-title: PikaPika
+title: 3AGameTech Course
 theme: piko
 themeDir: themes/
 paginate: "16"
-copyright: A template by [Heksagon](https://www.heksagon.net "Your most friendly developer")
+copyright: JackSquirrel
 canonifyURLs: true
 googleAnalytics: # Enter Google Analytics ie. UA-012345678-9
 enableRobotsTXT: true
@@ -43,9 +43,9 @@ params:
   description: Your website description
   math: false
   images:
-  - "og.webp"
+  - "title.png"
   label:
-    title: _3A Game Graphics_
+    title: _3A大世界游戏引擎全能课_
     text: Welcome to Piko
     icon: zap.svg
     iconHeight: "35"
@@ -75,13 +75,13 @@ params:
     # Hero Section
     disableHeroSection: false
     heroUpperTitle: 
-    heroTitle: 3A Game Graphics
+    heroTitle: 3A大世界游戏引擎全能课
     heroDescription: 欢迎来到........
     heroCTAPrimaryText: 报名参加课程
     heroCTAPrimaryUrl: "/blog/"
     heroCTASecondaryText: 联系我们
     heroCTASecondaryUrl: "/contact/"
-    heroBackgroundImage: "portfolio-1.webp"
+    heroBackgroundImage: "title.png"
 
     # Blog Section
     disableBlogSection: false
@@ -95,69 +95,70 @@ params:
     aboutTitle: About
     aboutDescription: Just something about me
     aboutImgUrl: "aboutme.jpg"
-    aboutContent: Hi guys. This is where you put something about yourself.
+    aboutContent: Hi, I'm JackSquirrel, the instructor for this course.
+
 
 
     # Portfolio Section
     disablePortfolioSection: false
     portfolioTitle: Showcase
-    portfolioDescription: 作品展示
+    portfolioDescription: 案例展示
     portfolio:
     - imageUrl: introduction.png
       alt: # image alt for better SEO
-      description: Portfolio 1231244.
+      description: 样例1
       websiteUrl: #
     - imageUrl: shader.png
       alt: # image alt for better SEO
-      description: Portfolio Two.
+      description: 样例2
       websiteUrl: #
-    - imageUrl: dots.png
+    - imageUrl: blueprint.png
       alt: # image alt for better SEO
-      description: Portfolio Three.
+      description: 样例3
       websiteUrl: #
     - imageUrl: building.png
       alt: # image alt for better SEO
-      description: Portfolio Three.
+      description: 样例4
       websiteUrl: #
     - imageUrl: grass.jpg
       alt: # image alt for better SEO
-      description: Portfolio Three.
+      description: 样例5
       websiteUrl: #
-    - imageUrl: forest.png
+    - imageUrl: forest1.png
       alt: # image alt for better SEO
-      description: Portfolio Three.
+      description: 样例6
       websiteUrl: #          
-    - imageUrl: terrain1.png
+    - imageUrl: terrain.png
       alt: # image alt for better SEO
-      description: Portfolio Three.
+      description: 样例7
       websiteUrl: #             
     - imageUrl: lighting.png
       alt: # image alt for better SEO
-      description: Portfolio Three.
+      description: 样例8
       websiteUrl: #  
     - imageUrl: gi.png
       alt: # image alt for better SEO
-      description: Portfolio Three.
+      description: 样例9
       websiteUrl: #       
     - imageUrl: shadow.jpg
       alt: # image alt for better SEO
-      description: Portfolio Three.
+      description: 样例10
       websiteUrl: #  
-    - imageUrl: portfolio-2.webp
+    - imageUrl: chunk.png
       alt: # image alt for better SEO
-      description: Portfolio Three.
+      description: 样例11
       websiteUrl: # 
     - imageUrl: rtx.png
       alt: # image alt for better SEO
-      description: Portfolio Three.
+      description: 样例12
       websiteUrl: # 
-    - imageUrl: hdr4k.jpg
+    - imageUrl: openworld.png
       alt: # image alt for better SEO
-      description: Portfolio Three.
+      description: 样例13
       websiteUrl: # 
-    - imageUrl: nanite.png
+    - imageUrl: 233.png
       alt: # image alt for better SEO
-      description: Portfolio Three.
+      description: 样例1
       websiteUrl: # 
 
 
