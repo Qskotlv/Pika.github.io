@@ -102,63 +102,63 @@ params:
     # Portfolio Section
     disablePortfolioSection: false
     portfolioTitle: Showcase
-    portfolioDescription: 案例展示
+    portfolioDescription: 展示
     portfolio:
     - imageUrl: introduction.png
       alt: # image alt for better SEO
-      description: 样例1
+      description: 参考图1
       websiteUrl: #
     - imageUrl: shader.png
       alt: # image alt for better SEO
-      description: 样例2
+      description: 参考图2
       websiteUrl: #
     - imageUrl: blueprint.png
       alt: # image alt for better SEO
-      description: 样例3
+      description: 参考图3
       websiteUrl: #
     - imageUrl: building.png
       alt: # image alt for better SEO
-      description: 样例4
+      description: 参考图4
       websiteUrl: #
     - imageUrl: grass.jpg
       alt: # image alt for better SEO
-      description: 样例5
+      description: 参考图5
       websiteUrl: #
     - imageUrl: forest1.png
       alt: # image alt for better SEO
-      description: 样例6
+      description: 参考图6
       websiteUrl: #          
     - imageUrl: terrain.png
       alt: # image alt for better SEO
-      description: 样例7
+      description: 参考图7
       websiteUrl: #             
     - imageUrl: lighting.png
       alt: # image alt for better SEO
-      description: 样例8
+      description: 参考图8
       websiteUrl: #  
     - imageUrl: gi.png
       alt: # image alt for better SEO
-      description: 样例9
+      description: 参考图9
       websiteUrl: #       
     - imageUrl: shadow.jpg
       alt: # image alt for better SEO
-      description: 样例10
+      description: 参考图10
       websiteUrl: #  
     - imageUrl: chunk.png
       alt: # image alt for better SEO
-      description: 样例11
+      description: 参考图11
       websiteUrl: # 
     - imageUrl: rtx.png
       alt: # image alt for better SEO
-      description: 样例12
+      description: 参考图12
       websiteUrl: # 
     - imageUrl: openworld.png
       alt: # image alt for better SEO
-      description: 样例13
+      description: 参考图13
       websiteUrl: # 
     - imageUrl: 233.png
       alt: # image alt for better SEO
-      description: 样例14
+      description: 参考图14
       websiteUrl: # 
 
 
