@@ -66,13 +66,13 @@ categories: ["themes", "syntax"]
 -   内存管理器封装
 
 ####  图形编程基础
--   自定义渲染
--   GPU compute
--   URP/HDRP 架构
 -   颜色空间
--   Z Buffer 的硬件和软件的优化
--   Culling 剔除算法
 -   相机的数学原理和封装扩展
+-   GPU compute
+-   Z Buffer 的硬件和软件的优化
+-   自定义渲染
+-   Culling 剔除算法
+-   URP/HDRP 架构
 -   postprocess 后处理
 
 ####  动画系统
@@ -172,7 +172,8 @@ categories: ["themes", "syntax"]
 -   抗锯齿
 
 ####  蓝图系统
--   节点编辑器
+-   开发一个蓝图系统
+-   节点编辑器界面
 
 ####  材质效果
 -   。。。

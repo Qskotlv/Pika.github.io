@@ -45,7 +45,7 @@ params:
   images:
   - "title.png"
   label:
-    title: _3A大世界游戏引擎全能课_
+    title: _3A开放大世界游戏引擎全能课_
     text: Welcome to Piko
     icon: zap.svg
     iconHeight: "35"
@@ -86,8 +86,8 @@ params:
 
     # Blog Section
     disableBlogSection: false
-    blogTitle: Latest Posts
-    blogDescription: This is my latest blog posts
+    blogTitle: About this course
+    blogDescription: progress
     seeMoreText: More Posts
 
 
