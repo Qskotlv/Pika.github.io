@@ -78,7 +78,8 @@ params:
     heroTitle: 3A大世界游戏引擎全能课
     heroDescription: 欢迎来到........
     heroCTAPrimaryText: 报名参加课程
-    heroCTAPrimaryUrl: "/blog/"
+    heroCTAPrimaryUrl: "/contact/"
+    #heroCTAPrimaryUrl: "/blog/"
     heroCTASecondaryText: 联系我们
     heroCTASecondaryUrl: "/contact/"
     heroBackgroundImage: "title.png"
