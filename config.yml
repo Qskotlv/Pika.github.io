@@ -80,7 +80,7 @@ params:
     heroCTAPrimaryText: 报名参加课程
     heroCTAPrimaryUrl: "/contact/"
     #heroCTAPrimaryUrl: "/blog/"
-    heroCTASecondaryText: 联系我们
+    heroCTASecondaryText: 咨询客服
     heroCTASecondaryUrl: "/contact/"
     heroBackgroundImage: "title.png"
 
