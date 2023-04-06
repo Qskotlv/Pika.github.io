@@ -100,7 +100,6 @@ params:
 
 
 
-    # Portfolio Section
   # Search Options (https://fusejs.io/)
   plugins:
     css:
