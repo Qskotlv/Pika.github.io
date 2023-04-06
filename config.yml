@@ -29,7 +29,7 @@ minify:
   tdewolff:
     html:
       keepWhitespace: false
-
+^^^
 params:
   analytics:
     google:
