@@ -78,8 +78,8 @@ params:
     heroTitle: 3A大世界游戏引擎全能课
     heroDescription: 欢迎来到........
     heroCTAPrimaryText: 报名参加课程
-    heroCTAPrimaryUrl: "/contact/"
-    #heroCTAPrimaryUrl: "/blog/"
+    #heroCTAPrimaryUrl: "http://littlepaypay.fun/"
+    heroCTAPrimaryUrl: "/blog/"
     heroCTASecondaryText: 咨询客服
     heroCTASecondaryUrl: "/contact/"
     heroBackgroundImage: "title.png"
@@ -98,6 +98,69 @@ params:
     aboutImgUrl: "aboutme.jpg"
     aboutContent: Hi, I'm JackSquirrel, the instructor for this course.
 
+
+
+    # Portfolio Section
+    disablePortfolioSection: false
+    portfolioTitle: Showcase
+    portfolioDescription: 展示
+    portfolio:
+    - imageUrl: introduction.png
+      alt: # image alt for better SEO
+      description: 参考图1
+      websiteUrl: #
+    - imageUrl: shader.png
+      alt: # image alt for better SEO
+      description: 参考图2
+      websiteUrl: #
+    - imageUrl: blueprint.png
+      alt: # image alt for better SEO
+      description: 参考图3
+      websiteUrl: #
+    - imageUrl: building.png
+      alt: # image alt for better SEO
+      description: 参考图4
+      websiteUrl: #
+    - imageUrl: grass.jpg
+      alt: # image alt for better SEO
+      description: 参考图5
+      websiteUrl: #
+    - imageUrl: forest1.png
+      alt: # image alt for better SEO
+      description: 参考图6
+      websiteUrl: #          
+    - imageUrl: terrain.png
+      alt: # image alt for better SEO
+      description: 参考图7
+      websiteUrl: #             
+    - imageUrl: lighting.png
+      alt: # image alt for better SEO
+      description: 参考图8
+      websiteUrl: #  
+    - imageUrl: gi.png
+      alt: # image alt for better SEO
+      description: 参考图9
+      websiteUrl: #       
+    - imageUrl: shadow.jpg
+      alt: # image alt for better SEO
+      description: 参考图10
+      websiteUrl: #  
+    - imageUrl: chunk.png
+      alt: # image alt for better SEO
+      description: 参考图11
+      websiteUrl: # 
+    - imageUrl: rtx.png
+      alt: # image alt for better SEO
+      description: 参考图12
+      websiteUrl: # 
+    - imageUrl: openworld.png
+      alt: # image alt for better SEO
+      description: 参考图13
+      websiteUrl: # 
+    - imageUrl: 233.png
+      alt: # image alt for better SEO
+      description: 参考图14
+      websiteUrl: # 
 
 
   # Search Options (https://fusejs.io/)
