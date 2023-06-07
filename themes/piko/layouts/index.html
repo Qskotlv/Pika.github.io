@@ -4,8 +4,8 @@
     url('{{.Site.Params.homepage.heroBackgroundImage}}'); background-position: center; background-size: cover; ">
     <header class="container">
         <hgroup>
-            <h1>{{.Site.Params.homepage.heroUpperTitle}}</h1>
-            <h1>{{.Site.Params.homepage.heroTitle}}</h1>
+            <h2 style="color: rgba(255,255,255,0.9)">{{.Site.Params.homepage.heroUpperTitle}}</h2>
+            <h1 style="color: #ffd800; text-shadow: -1px -1px 0 #000, 3px -3px 0 #000, -2px 2px 0 #000, 5px 4px 0 #000;">{{.Site.Params.homepage.heroTitle}}</h1>
             <h2>{{.Site.Params.homepage.heroDescription}}</h2>
         </hgroup>
         <div>
@@ -17,29 +17,32 @@
                class="contrast outline">{{.Site.Params.homepage.heroCTASecondaryText}}</a>
         </div>
     </header>
-    <header class="container">
-        <hgroup>
-            <h1>{{""}}</h1>
-            <h1>{{""}}</h1>
-            <h2>{{""}}</h2>
-        </hgroup>
-        <hgroup>
-            <h1>{{""}}</h1>
-            <h1>{{""}}</h1>
-            <h2>{{""}}</h2>
-        </hgroup>
+
+    <!-- 支付提示按钮 -->
+    <header>
+        <div style="float: right;">
+            <a role="button" class="contrast outline" style="font-size: 30px; padding: 10px 50px; margin-right: 320px;">
+                <del style="color: rgba(255,255,255,0.9)">{{.Site.Params.homepage.originalPrice}}</del> <br>
+                <span style="color: rgb(255 106 0)">{{.Site.Params.homepage.discountPrice}}</span>
+            </a><br>
+
+        </div>
     </header>
-    <header class="container">
-        <hgroup>
-            <h1>{{""}}</h1>
-            <h1>{{""}}</h1>
-            <h2>{{""}}</h2>
-        </hgroup>
-        <hgroup>
-            <h1>{{""}}</h1>
-            <h1>{{""}}</h1>
-            <h2>{{""}}</h2>
-        </hgroup>
+
+    <header style="height: 220px;">
+        <div style="float: right;">
+            <a class="hero-buttons"  role="button" style="font-size: 30px; padding: 10px 50px; margin-right: 320px; ">
+                <span>{{.Site.Params.homepage.zhifubaoBuyText}}</span> <br>
+                <span>{{.Site.Params.homepage.zhifubaoFenqiText}}</span>
+            </a>
+        </div>
+    </header>
+
+    <br>
+
+    <!-- 支付二维码 -->
+    <header style="display: flex; flex-direction: row-reverse; align-items: center;">
+        <img src="{{.Site.Params.homepage.payLinkImage}}" alt="支付宝扫码" style="width: 15%; height: auto; margin-right: 320px; ">
     </header>
 </section>
 {{ end }}
@@ -47,97 +50,114 @@
 
 {{- if not (.Site.Params.homepage.disableBlogSection) }}
 <section>
-  <hgroup class="text-center">
-    <h2>{{.Site.Params.homepage.blogTitle}}</h2>
-    <h3>{{.Site.Params.homepage.blogDescription}}</h3>
-  </hgroup>
-  <div class="container">
-    <div class="grid grid-post">
-      {{ $paginator := .Paginate (where site.RegularPages  "Type" "in" site.Params.mainSections | first
-      3) }} {{ range $paginator.Pages }}
-      <a href="{{ .RelPermalink }}">
-        <article class="text-center">
-        {{if .Params.Cover.Image}}
-          <figure>
-            <img
-              src="{{.Params.Cover.Image | absURL}}"
-              width="600"
-              height="400"
-              layout="responsive"
-            ></img>
+    <hgroup class="text-center">
+        <h2>{{.Site.Params.homepage.blogTitle}}</h2>
+        <h3>{{.Site.Params.homepage.blogDescription}}</h3>
+    </hgroup>
+    <div class="container">
+        <div class="grid grid-post">
+            {{
+ $paginator := .Paginate (where site.RegularPages  "Type" "in" site.Params.mainSections | first
+      3)
+            }} {{ range $paginator.Pages }}
+            <a href="{{ .RelPermalink }}">
+                <article class="text-center">
+                    {{if .Params.Cover.Image}}
+                    <figure>
+                        <img src="{{.Params.Cover.Image | absURL}}"
+                             width="600"
+                             height="400"
+                             layout="responsive"></img>
+                        {{ end }}
+                    </figure>
+                    <hgroup>
+                        <h3>{{ .Title }}</h3>
+                        <hr />
+                        <p>
+                            {{ .Description | plainify | htmlUnescape | truncate 100 }}{{
+ if
+              .Truncated
+                            }}...{{ end }}
+                        </p>
+                    </hgroup>
+                    <small> {{- partial "post_meta.html" . -}} </small>
+                </article>
+            </a>
             {{ end }}
-          </figure>
-          <hgroup>
-            <h3>{{ .Title }}</h3>
-            <hr />
-            <p>
-              {{ .Description | plainify | htmlUnescape | truncate 100 }}{{ if
-              .Truncated }}...{{ end }}
-            </p>
-          </hgroup>
-          <small> {{- partial "post_meta.html" . -}} </small>
-        </article>
-      </a>
-      {{ end }}
+        </div>
     </div>
-  </div>
-  <div class="text-center">
-  <a href="{{ "/blog" | absLangURL }}"><kbd>{{.Site.Params.homepage.seeMoreText}}</kbd></a>
-</div>
+    <div class="text-center">
+        <a href="{{ "/blog" | absLangURL }}"><kbd>{{.Site.Params.homepage.seeMoreText}}</kbd></a>
+    </div>
 </section>
 {{ end }}
 
+
+
+<!-- 我的信息展示 -->
 {{- if not (.Site.Params.homepage.disableAboutSection) }}
 <section>
-  <hgroup class="text-center">
-    <h2>{{.Site.Params.homepage.aboutTitle}}</h2>
-    <h3>{{.Site.Params.homepage.aboutDescription}}</h3>
-  </hgroup>
-  <div class="container">
-    <div class="grid">
-      <div class="container" style="text-align: right;">
-        <img
-          src=" {{.Site.Params.homepage.aboutImgUrl}}"
-          alt="{{.Site.Params.author}}"
-          width="300"
-          height="450"
-          layout="intrinsic"
-        ></img>
-      </div>
-      <div class="container">
-        {{.Site.Params.homepage.aboutContent}}
-      </div>
+    <hgroup class="text-center">
+        <h2>{{.Site.Params.homepage.aboutTitle}}</h2>
+        <h3>{{.Site.Params.homepage.aboutDescription}}</h3>
+    </hgroup>
+    <div class="container">
+        <div class="grid">
+            <div class="container" style="text-align: right;">
+                <img src=" {{.Site.Params.homepage.aboutImgUrl}}"
+                     alt="{{.Site.Params.author}}"
+                     width="300"
+                     height="450"
+                     layout="intrinsic"></img>
+            </div>
+            <div class="container">
+                {{.Site.Params.homepage.aboutContent}}
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 {{ end }}
+
+
+<!-- 课程海报 -->
+<section style="display: flex; justify-content: center; align-items: center;">
+    <img src="{{.Site.Params.homepage.post1Image}}" alt="海报" style="width: 50%; height: auto;">
+</section>
+<section style="display: flex; justify-content: center; align-items: center;">
+    <img src="{{.Site.Params.homepage.post2Image}}" alt="海报" style="width: 50%; height: auto;">
+</section>
+<section style="display: flex; justify-content: center; align-items: center;">
+    <img src="{{.Site.Params.homepage.post3Image}}" alt="海报" style="width: 50%; height: auto;">
+</section>
+<!--<section style="display: flex; justify-content: center; align-items: center;">
+    <img src="{{.Site.Params.homepage.post4Image}}" alt="海报" style="width: 50%; height: auto;">
+</section>-->
+
 
 {{- if not (.Site.Params.homepage.disablePortfolioSection) }}
 <section>
-  <hgroup class="text-center">
-    <h2>{{.Site.Params.homepage.portfolioTitle}}</h2>
-    <h3>{{.Site.Params.homepage.portfolioDescription}}</h3>
-  </hgroup>
-  <div class="container">
-    <div class="grid grid-post">
-      {{ range .Site.Params.homepage.portfolio }}
-      <a class="portfolio-post" href="{{.websiteUrl}}">
-        <figure >
-          <img
-            src="{{.imageUrl}}"
-            width="600"
-            height="400"
-            layout="responsive"
-            alt="{{.alt}}"
-          ></img>
-        </figure>
-        <hgroup class="text-center">
-          <h4>{{.description}}</h4>
-        </hgroup>
-      </a>
-      {{ end }}
+    <hgroup class="text-center">
+        <h2>{{.Site.Params.homepage.portfolioTitle}}</h2>
+        <h3>{{.Site.Params.homepage.portfolioDescription}}</h3>
+    </hgroup>
+    <div class="container">
+        <div class="grid grid-post">
+            {{ range .Site.Params.homepage.portfolio }}
+            <a class="portfolio-post" href="{{.websiteUrl}}">
+                <figure>
+                    <img src="{{.imageUrl}}"
+                         width="600"
+                         height="400"
+                         layout="responsive"
+                         alt="{{.alt}}"></img>
+                </figure>
+                <hgroup class="text-center">
+                    <h4>{{.description}}</h4>
+                </hgroup>
+            </a>
+            {{ end }}
+        </div>
     </div>
-  </div>
 </section>
 {{ end }}
 

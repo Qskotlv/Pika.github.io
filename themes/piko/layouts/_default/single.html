@@ -43,28 +43,25 @@
     
     {{- if (.Param "ShowRelated") }} 
     <aside>
-      <article>
-        {{ $related := .Site.RegularPages.Related . | first 5 }} {{ with
-        $related }}
-        <h3>See Also</h3>
+        <article>
+            {{ $related := .Site.RegularPages.Related . | first 5 }} {{
+ with
+        $related
+            }}
+            <h3>See Also</h3>
 
-         <a
-        class="hero-buttons"
-        role="button"
-        >{{ "点击购买" }}</a
-        >
+            <!--<a class="hero-buttons"
+       role="button">{{ "点击购买" }}</a>
 
-        <a href="https://github.com/gohugoio/hugo/releases/tag/v0.91.0" >
-          <hgroup>
+    <a href="https://github.com/gohugoio/hugo/releases/tag/v0.91.0">
+        <hgroup>
             <h4><i>{{ "支付宝" }}</i></h4>
-          </hgroup>
-        </a>
+        </hgroup>
+    </a>-->
+            {{ end }}
 
 
-       {{ end }} 
-
-
-      </article>
+        </article>
     </aside>
     {{ end }}
     
