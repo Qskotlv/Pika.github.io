@@ -41,22 +41,24 @@ categories: ["themes", "syntax"]
 -   分包管理
 -   profiler
 
-#### 图形编程基础
--   颜色空间
--   自定义渲染
--   GPU compute
--   URP/HDRP 架构
--   Z Buffer 的硬件和软件的优化
--   相机的数学原理和封装扩展
--   Culling 剔除算法
--   postprocess 后处理
--   And another item
 
 ####  核心工具库
 -   线程管理和调度封装
 -   协程封装
 -   Object 序列化架构
 -   内存管理器封装
+
+
+#### 图形编程基础
+-   颜色空间
+-   GPU架构
+-   自定义渲染
+-   GPU compute
+-   postprocess 后处理
+-   相机的数学原理和封装扩展
+-   Culling 剔除算法
+-   URP/HDRP 架构
+-   And another item
 
 
 ####  动画系统
