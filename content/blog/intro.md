@@ -1,19 +1,16 @@
 ---
 author: "admin"
-title: "课程介绍"
-date: "2023-03-11"
-description: "大纲"
+title: "大纲"
+date: "2023-03-22"
+description: "介绍"
 tags: ["pc", "switch", "ps4"]
 categories: ["themes", "syntax"]
+ShowToc: true
+TocOpen: true
 ---
 
-~Hi！ 欢迎来到本课程，
-这是一门关于3A开放大世界引擎开发技术教学，
-在本课程中，我们将会提供课堂讲授、实践演示以及作业练习等多种教学形式，
-帮助学习者从入门到进阶，逐步掌握开放大世界游戏制作的核心技术和实践经验。
-我们相信通过本课程的学习，学习者将可以掌握开放世界游戏制作的核心技术，实现自己的游戏制作梦想。
 
-<!--more-->
+<!--more--> 
 
 
 # 大纲
@@ -47,6 +44,7 @@ categories: ["themes", "syntax"]
 -   协程封装
 -   Object 序列化架构
 -   内存管理器封装
+
 
 
 #### 图形编程基础
@@ -163,6 +161,3 @@ categories: ["themes", "syntax"]
 
 ####  材质效果
 -   。。。
-
-
-
