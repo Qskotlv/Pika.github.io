@@ -13,7 +13,7 @@ TocOpen: true
 <!--more--> 
 试看部分
 
-#### 点击观看视频
+#### 点击观看视频（试看视频需要魔法上网）
 
 -   [试看1](https://drive.google.com/file/d/1XoAl3qWkYEDc7roDXA79I3MCl-VPzEWR/view?usp=drive_link)
 
