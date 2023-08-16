@@ -14,6 +14,7 @@ TocOpen: true
 试看部分
 
 #### 点击观看视频（试看视频需要魔法上网）
+-   需要试看的联系讲师开通权限 QQ1476306451 
 
 -   [试看1_序列化流程详解](https://drive.google.com/file/d/1XoAl3qWkYEDc7roDXA79I3MCl-VPzEWR/view?usp=drive_link)
 
