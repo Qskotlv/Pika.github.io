@@ -19,7 +19,7 @@ TocOpen: true
 
 -   [试看2_序列化的实战用法4](https://drive.google.com/file/d/1QhXZ5kezxgzAduzd9T5AxKI6nvvLQKRb/view?usp=drive_link)
 
--   [试看3_细节加载演示](https://drive.google.com/file/d/1yjQjOAHfnvKhe3jfpSiJ09uLtwhns0eJ/view?usp=drive_link)
+-   [试看3_细节加载演示](https://drive.google.com/file/d/1LMWSZAa9vJW4lVLQGk_Wrfm4W0EnxAaH/view?usp=drive_link)
 
 -   [试看4](https://drive.google.com/file/d/1RoUD7xmAXFPEXortiU-DllpV9iVCPng_/view?usp=drive_link)
 
