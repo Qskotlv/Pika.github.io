@@ -114,7 +114,7 @@ params:
     # Portfolio Section
     disablePortfolioSection: false
     portfolioTitle: Showcase
-    portfolioDescription: 展示
+    portfolioDescription: 作品展示
     portfolio:
     - imageUrl: introduction.png
       alt: # image alt for better SEO
