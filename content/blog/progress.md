@@ -23,7 +23,7 @@ TocOpen: true
 
 #### 点击观看视频（试看视频需要魔法上网）  
 
--   需要试看的联系讲师开通权限 QQ 1476306451 
+-   需要试看的联系客服开通权限 QQ 1157058807 
 
 -   [试看0_如何加入引擎组或技术美术中台工作](https://drive.google.com/file/d/1KIoqsSYj317wOojg1xhwNcyl7o8SEWGt/view?usp=drive_link)  
 
