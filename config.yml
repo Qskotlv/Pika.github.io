@@ -79,7 +79,7 @@ params:
     heroDescription: 
     heroCTAPrimaryText: 视频介绍
     #heroCTAPrimaryUrl: "/blog/"
-    heroCTAPrimaryUrl: "https://www.bilibili.com/video/BV188411Z7zQ/?spm_id_from=333.999.0.0&vd_source=9e7c4100604b6d3140568c6d885c0211"
+    heroCTAPrimaryUrl: "https://www.bilibili.com/video/BV1cz4y157Hg/?share_source=copy_web&vd_source=1d8693602ca32b3476ea27927d99daa6"
     heroCTASecondaryText: 咨询客服 (购买指南)
     heroCTASecondaryUrl: "/contact/"
     heroBackgroundImage: "title5.jpg"
