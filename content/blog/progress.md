@@ -29,7 +29,7 @@ TocOpen: true
 
 -   [试看1_序列化流程详解](https://drive.google.com/file/d/1XoAl3qWkYEDc7roDXA79I3MCl-VPzEWR/view?usp=drive_link)  
 
--   [试看3 静态合批](https://drive.google.com/file/d/1xNb73mJY6HJiumnVLPR_34YfLw1xEUZi/view?usp=drive_link)  
+-   [试看3 静态合批](https://drive.google.com/file/d/1wSXOMPcmlyHuIJdo6vQ8QUkKLgbzXgLj/view?usp=drive_link)  
 
 -   [试看4](https://drive.google.com/file/d/1RoUD7xmAXFPEXortiU-DllpV9iVCPng_/view?usp=drive_link)  
 
