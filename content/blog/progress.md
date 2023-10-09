@@ -29,11 +29,12 @@ TocOpen: true
 
 -   [试看1_序列化流程详解](https://drive.google.com/file/d/1XoAl3qWkYEDc7roDXA79I3MCl-VPzEWR/view?usp=drive_link)  
 
--   [试看3_细节加载演示](https://drive.google.com/file/d/1QT6X9JwQUkylkpMEtuhhKjzygqOWDLf3/view?usp=drive_link)  
+-   [试看3 静态合批](https://drive.google.com/file/d/1xNb73mJY6HJiumnVLPR_34YfLw1xEUZi/view?usp=drive_link)  
 
 -   [试看4](https://drive.google.com/file/d/1RoUD7xmAXFPEXortiU-DllpV9iVCPng_/view?usp=drive_link)  
 
 -   [试看5_流式加载和异步加载](https://drive.google.com/file/d/1PpRYx_bY9qN_srLJv6Cd9H8xNEp_bAmi/view?usp=drive_link)  
+
 
 
 
