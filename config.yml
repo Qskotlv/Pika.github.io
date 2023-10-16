@@ -45,7 +45,7 @@ params:
   images:
   - "title.png"
   label:
-    title: _3A开放大世界游戏引擎全能课_
+    title: _Unity 3A游戏引擎全能课_
     text: Welcome to Piko
     icon: zap.svg
     iconHeight: "35"
@@ -75,7 +75,7 @@ params:
     # Hero Section
     disableHeroSection: false
     heroUpperTitle:  欢迎来到........
-    heroTitle: 3A大世界游戏引擎全能课
+    heroTitle: Uniy 3A游戏引擎全能课
     heroDescription: 
     heroCTAPrimaryText: 视频介绍
     #heroCTAPrimaryUrl: "/blog/"
