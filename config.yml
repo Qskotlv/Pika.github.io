@@ -4,7 +4,7 @@ languageCode: en-us
 title: 3AGameTech Course
 theme: piko
 themeDir: themes/
-paginate: "12"
+paginate: "16"
 copyright: 沪ICP备12032161号 广播电视节目制作:（沪）字第03589号 增值电信业务:沪B-33426716 
 canonifyURLs: true
 googleAnalytics: # Enter Google Analytics ie. UA-012345678-9
@@ -172,6 +172,11 @@ params:
       alt: # image alt for better SEO
       description: 参考图14
       websiteUrl: # 
+    - imageUrl: lightning.png
+      alt: # image alt for better SEO
+      description: 参考图14
+      websiteUrl: # 
+
 
 
     - imageUrl: section (1).png
