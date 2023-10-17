@@ -239,9 +239,18 @@ params:
       alt: # image alt for better SEO
       description: 
       websiteUrl: #
-
-
-
+    - imageUrl: section (16).png
+      alt: # image alt for better SEO
+      description: 
+      websiteUrl: #
+    - imageUrl: section (17).png
+      alt: # image alt for better SEO
+      description: 
+      websiteUrl: #
+    - imageUrl: section (18).png
+      alt: # image alt for better SEO
+      description: 
+      websiteUrl: #
 
   # Search Options (https://fusejs.io/)
   plugins:
