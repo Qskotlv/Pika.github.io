@@ -69,9 +69,8 @@ TocOpen: true
 -   CPU 端蒙皮
 -   GPU 蒙皮
 
-####  Object渲染系统
--   基于大世界的渲染系统
--   Mesh组件定义
+####  Object渲染系统基础
+-   Mesh组件自定定义
 -   DrawCall的封装
 -   instancing
 -   StaticBatching
@@ -79,14 +78,21 @@ TocOpen: true
 -   SRPBatcher
 -   自定义Batcher
 -   渲染的排序问题
+
+
+####  Object渲染系统
+-   基于大世界的渲染
+-   流式渲染加载系统
 -   多线程优化
 -   模型LOD减面数
--   贴图系统
--   Atlas图集生成
--   序列化工作流程
--   动态加载数据
+-   大世界系统的LOD
+
+
+####  GPU驱动的渲染架构
+-   GPU Driven架构
+-   贴图流加载系统
+-   虚拟贴图
 -	cluster mesh
--   GPU Driven
 
 ####  地形系统
 -   无缝大地形
@@ -96,7 +102,7 @@ TocOpen: true
 -   分块渲染
 -   QuadTree四叉树地形
 -   贴图材质分层
--   虚拟纹理
+-   地形虚拟贴图
 -   线程优化
 
 ####  树林系统
