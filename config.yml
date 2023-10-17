@@ -179,10 +179,7 @@ params:
 
 
 
-    - imageUrl: section (1).png
-      alt: # image alt for better SEO
-      description: 
-      websiteUrl: #
+
     - imageUrl: section (2).png
       alt: # image alt for better SEO
       description: 
@@ -248,6 +245,10 @@ params:
       description: 
       websiteUrl: #
     - imageUrl: section (18).png
+      alt: # image alt for better SEO
+      description: 
+      websiteUrl: #
+    - imageUrl: section (19).png
       alt: # image alt for better SEO
       description: 
       websiteUrl: #
