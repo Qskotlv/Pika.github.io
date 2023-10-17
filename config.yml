@@ -4,7 +4,7 @@ languageCode: en-us
 title: 3AGameTech Course
 theme: piko
 themeDir: themes/
-paginate: "16"
+paginate: "12"
 copyright: 沪ICP备12032161号 广播电视节目制作:（沪）字第03589号 增值电信业务:沪B-33426716 
 canonifyURLs: true
 googleAnalytics: # Enter Google Analytics ie. UA-012345678-9
@@ -46,7 +46,7 @@ params:
   - "title.png"
   label:
     title: _Unity 3A游戏引擎全能课_
-    text: Welcome to Piko
+    text: Welcome to 
     icon: zap.svg
     iconHeight: "35"
     iconWIdth: "35"
