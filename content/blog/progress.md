@@ -21,6 +21,7 @@ TocOpen: true
 -   [演示2](https://www.bilibili.com/video/BV1KT411B7YM/?vd_source=9e7c4100604b6d3140568c6d885c0211)  
 
 
+<!--试看
 #### 点击观看视频（试看视频需要魔法上网）  
 
 -   需要试看的联系客服开通权限 QQ 1157058807 
@@ -34,6 +35,6 @@ TocOpen: true
 -   [试看4_流式加载和异步加载](https://drive.google.com/file/d/1PpRYx_bY9qN_srLJv6Cd9H8xNEp_bAmi/view?usp=drive_link)  
 
 -   [试看5 静态合批](https://drive.google.com/file/d/1wSXOMPcmlyHuIJdo6vQ8QUkKLgbzXgLj/view?usp=drive_link)  
-
+--> 
 
 
