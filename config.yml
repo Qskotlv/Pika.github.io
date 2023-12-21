@@ -86,7 +86,7 @@ params:
     # Pay Section
     zhifubaoBuyText: 支付宝支付 
     zhifubaoFenqiText: (花呗分期 6期免息)
-    discountPrice : 早鸟价 9388
+    discountPrice : 限时价 7968
     originalPrice : 原价 9888
     payLinkImage : "zhifubao.jpg"
 
