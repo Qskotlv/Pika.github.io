@@ -102,13 +102,14 @@ params:
     aboutTitle: About
     aboutDescription: 课程讲师
     aboutImgUrl: "aboutme.jpg"
-    aboutContent: 主要讲师 JackSquirrel，资深引擎工程师，多年的丰富且优秀的经验积累，参与过3A大世界项目，负责攻坚核心难点技术、统筹项目的发展。就职于腾讯、迪士尼等公司。
+    aboutContent: 主要讲师 JackSquirrel，资深引擎工程师，就职于迪士尼、腾讯等公司。10+年的丰富且优秀的经验积累，参与过3A大世界项目，负责统筹项目的发展、攻坚核心难点技术，方向包括引擎开发、图形技术、大世界架构技术等等。
 
     # poster Section    
     post1Image : "post1.jpg"
     post2Image : "post2.jpg"
     post3Image : "post3.jpg"
-    post4Image : "post4.png"
+    post4Image : "post4.jpg"
+    post5Image : "post5.png"
 
 
     # Portfolio Section
