@@ -109,7 +109,9 @@ params:
     post2Image : "post2.jpg"
     post3Image : "post3.jpg"
     post4Image : "post4.jpg"
-    post5Image : "post5.png"
+    post5Image : "post5.jpg"
+    post6Image : "post6.jpg"
+    post7Image : "post7.jpg"
 
 
     # Portfolio Section
