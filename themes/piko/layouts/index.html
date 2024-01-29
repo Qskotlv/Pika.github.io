@@ -39,7 +39,6 @@
     </header>
 
     <br>-->
-
     <!-- 支付二维码 -->
     <!--<header style="display: flex; flex-direction: row-reverse; align-items: center;">
         <img src="{{.Site.Params.homepage.payLinkImage}}" alt="支付宝扫码" style="width: 25%; height: auto; margin-right: 420px; ">
@@ -137,8 +136,9 @@
 </section>
 
 
+<!-- 作品展示 -->
 {{- if not (.Site.Params.homepage.disablePortfolioSection) }}
-<section>
+<!--<section>
     <hgroup class="text-center">
         <h2>{{.Site.Params.homepage.portfolioTitle}}</h2>
         <h3>{{.Site.Params.homepage.portfolioDescription}}</h3>
@@ -152,8 +152,7 @@
                          width="600"
                          height="400"
                          layout="responsive"
-                         alt="{{.alt}}"
-                         ></img>
+                         alt="{{.alt}}"></img>
                 </figure>
                 <hgroup class="text-center">
                     <h4>{{.description}}</h4>
@@ -162,7 +161,7 @@
             {{ end }}
         </div>
     </div>
-</section>
+</section>-->
 {{ end }}
 
 {{ end }}
