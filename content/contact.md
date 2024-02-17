@@ -1,8 +1,8 @@
 ---
 title: 'Contact Me' # in any language you want
 # url: "/archive"
-description: 咨询QQ群 984994458 
-summary: 咨询加微信 16722310400 ，主页扫码购买后联系客服领取...
+description: 联系方式：在网站的图中
+summary: 购买方式：在网站的图中
 disableShare: true
 layout: contact
 ShowReadingTime: false
